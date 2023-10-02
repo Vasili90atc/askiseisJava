@@ -1,2 +1,0 @@
-# askiseisJava
-praktiki
