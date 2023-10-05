@@ -12,9 +12,7 @@ package askiseis_me_poleis_xwres_plithismos;
 public class Plithismos
 {
 
-    public Plithismos()
-    {
-    }
+    
 
     public static void main(String args[])
     {

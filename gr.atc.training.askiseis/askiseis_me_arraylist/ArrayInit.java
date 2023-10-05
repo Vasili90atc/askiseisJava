@@ -6,6 +6,7 @@
 package askiseis_me_arraylist;
 
 import java.io.PrintStream;
+import java.util.ArrayList;
 
 public class ArrayInit
 {
@@ -19,6 +20,11 @@ public class ArrayInit
         int array1[] = {
             3, -5, 0, 8
         };
+        int array[]=new int[];
+       ArrayList<Integer> array2=new ArrayList<Integer>();
+       ArrayList<Integer> array3=new ArrayList<Integer>();
+
+       array2.addAll(array3);
         System.out.println("array1:");
         for(int i = 0; i < array1.length; i++)
             System.out.print((new StringBuilder(String.valueOf(array1[i]))).append(" ").toString());

@@ -10,15 +10,13 @@ import java.util.ArrayList;
 
 public class PoleisXwresPlithismos
 {
+	ArrayList<Integer> population;
 
     public PoleisXwresPlithismos()
     {
+        population = new ArrayList<>();
     }
 
-    public void poleis_xwres_plithismous()
-    {
-        population = new ArrayList();
-    }
 
     public void diavazw_apo_arxeio()
     {
